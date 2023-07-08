@@ -1,0 +1,31 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/blocks/prob-blocks-blocks-nblk2-seed1175397191-seq1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.35787692999999976
+INFO:root:Runtime: 0.42773221153765917
+INFO:root:Plan length: 4
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 11
+INFO:root:Number of calls: 25
+INFO:root:Runtime for each network call: [0.016549110412597656, 0.0013689994812011719, 0.0013499259948730469, 0.0013489723205566406, 0.0019109249114990234, 0.003751993179321289, 0.00315093994140625, 0.0013518333435058594, 0.0018930435180664062, 0.00372314453125, 0.003126859664916992, 0.0013468265533447266, 0.0013289451599121094, 0.001920938491821289, 0.003721952438354492, 0.0013620853424072266, 0.004995107650756836, 0.0013608932495117188, 0.0019121170043945312, 0.0037190914154052734, 0.007001161575317383, 0.0013971328735351562, 0.00191497802734375, 0.0037250518798828125, 0.0030999183654785156]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 51
+INFO:root:Number of Gurobi variables: 256 Constraints: 337
+INFO:root:Explanation: ontable_b2 = 0
+handempty = 1
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/blocks/prob-blocks-blocks-nblk2-seed1175397191-seq1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.35854380500000005
+INFO:root:Runtime: 0.4328118646517396
+INFO:root:Plan length: 4
+INFO:root:Size of explanation: 1
+INFO:root:Size of input: 11
+INFO:root:Number of calls: 26
+INFO:root:Runtime for each network call: [0.016386032104492188, 0.0013420581817626953, 0.0019278526306152344, 0.0037689208984375, 0.0031740665435791016, 0.0013298988342285156, 0.0019049644470214844, 0.0013148784637451172, 0.0019080638885498047, 0.0037331581115722656, 0.001355886459350586, 0.00131988525390625, 0.0013191699981689453, 0.0019109249114990234, 0.003726959228515625, 0.0013470649719238281, 0.001325845718383789, 0.0019059181213378906, 0.003726959228515625, 0.003103971481323242, 0.0013401508331298828, 0.0019099712371826172, 0.0037069320678710938, 0.003108978271484375, 0.007875204086303711, 0.0014030933380126953]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 51
+INFO:root:Number of Gurobi variables: 256 Constraints: 337
+INFO:root:Explanation: on_b2_b1 = 1
+

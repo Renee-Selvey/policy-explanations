@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/blocks/prob-blocks-blocks-nblk4-seed830202877-seq2.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 9.729471144
+INFO:root:Plan length: 8
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 29
+INFO:root:Explanation: [['is_true(clear_b1)', False], ['is_true(on_b3_b4)', False], ['is_true(on_b1_b4)', False], ['is_true(on_b2_b4)', False], ['is_true(holding_b2)', False], ['is_true(holding_b1)', False], ['is_true(on_b2_b1)', False], ['is_true(on_b4_b4)', False], ['is_true(on_b3_b2)', False], ['is_true(on_b3_b1)', False], ['is_true(on_b3_b3)', False], ['is_true(on_b1_b3)', False], ['is_true(on_b1_b2)', False], ['is_true(on_b2_b3)', False], ['is_true(on_b2_b2)', False], ['is_true(on_b1_b1)', False], ['is_true(holding_b3)', False], ['is_true(ontable_b4)', False], ['is_true(ontable_b2)', False], ['is_true(ontable_b1)', False], ['is_true(clear_b4)', False], ['is_true(on_b4_b2)', False], ['is_true(on_b4_b1)', False], ['is_true(holding_b4)', False], ['is_true(handempty)', False], ['is_true(clear_b2)', True], ['is_true(clear_b3)', True], ['is_true(on_b4_b3)', False], ['is_true(ontable_b3)', False]]

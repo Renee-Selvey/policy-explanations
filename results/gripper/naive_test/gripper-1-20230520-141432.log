@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/gripper/problem01.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 1.4753753949999986
+INFO:root:Plan length: 3
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 8
+INFO:root:Explanation: [['is_true(free_right)', False], ['is_true(carry_ball1_right)', False], ['is_true(carry_ball1_left)', False], ['is_true(at_ball1_roomb)', False], ['is_true(at-robby_roomb)', False], ['is_true(at_ball1_rooma)', False], ['is_true(free_left)', True], ['is_true(at-robby_rooma)', True]]

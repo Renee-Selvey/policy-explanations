@@ -1,0 +1,5 @@
+
+Gurobi 9.1.2 (linux64) logging started Sun May 21 11:20:13 2023
+
+Changed value of parameter LogFile to ./logs/gripper-14-20230521-112013.log
+   Prev:   Default: 

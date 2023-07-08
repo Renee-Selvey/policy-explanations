@@ -1,0 +1,1405 @@
+
+Gurobi 9.1.2 (linux64) logging started Sun May 21 10:59:04 2023
+
+Changed value of parameter LogFile to ./logs/parking-3-2-20230521-105904.log
+   Prev:   Default: 
+Changed value of parameter FuncPieces to -1
+   Prev: 0  Min: -2  Max: 200000000  Default: 0
+Changed value of parameter FuncPieceLength to 1e-05
+   Prev: 0.01  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Changed value of parameter FuncPieceError to 1e-06
+   Prev: 0.001  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Changed value of parameter IntFeasTol to 1e-09
+   Prev: 1e-05  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 552 rows, 758 columns and 1478 nonzeros
+Model fingerprint: 0xf2d4a5fb
+Model has 412 general constraints
+Variable types: 553 continuous, 205 integer (205 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 19 rows and 0 columns
+Presolve removed 0 rows and 50 columns
+Presolve time: 0.03s
+Presolved: 571 rows, 708 columns, 2227 nonzeros
+Presolved model has 151 SOS constraint(s)
+Variable types: 528 continuous, 180 integer (180 binary)
+
+Root relaxation: objective 0.000000e+00, 371 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   69          -    0.00000      -     -    0s
+     0     0    0.00000    0  102          -    0.00000      -     -    0s
+     0     0    0.00000    0  103          -    0.00000      -     -    0s
+     0     0    0.00000    0   39          -    0.00000      -     -    0s
+     0     0    0.00000    0   48          -    0.00000      -     -    0s
+     0     0    0.00000    0   45          -    0.00000      -     -    0s
+     0     0    0.00000    0   45          -    0.00000      -     -    0s
+     0     0    0.00000    0   38          -    0.00000      -     -    0s
+     0     0    0.00000    0   38          -    0.00000      -     -    0s
+     0     2    0.00000    0   38          -    0.00000      -     -    0s
+H 6639  4604                       0.0000000    0.00000  0.00%   5.5    0s
+
+Explored 6639 nodes (38840 simplex iterations) in 0.57 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8376e-02) exceeds tolerance
+Warning: max general constraint violation (6.8376e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 577 rows, 908 columns and 1503 nonzeros
+Model fingerprint: 0x1a1a8582
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 215 columns
+Presolve removed 44 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 577 rows, 908 columns and 1503 nonzeros
+Model fingerprint: 0xdf278daa
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 241 columns
+Presolve removed 32 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 576 rows, 908 columns and 1502 nonzeros
+Model fingerprint: 0x47eba43d
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 384 rows and 662 columns
+Presolve time: 0.02s
+Presolved: 192 rows, 246 columns, 724 nonzeros
+Presolved model has 47 SOS constraint(s)
+Variable types: 136 continuous, 110 integer (108 binary)
+
+Root relaxation: objective 0.000000e+00, 114 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+
+Explored 1 nodes (114 simplex iterations) in 0.04 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 576 rows, 908 columns and 1502 nonzeros
+Model fingerprint: 0x9ec9df54
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 407 rows and 527 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 575 rows, 908 columns and 1501 nonzeros
+Model fingerprint: 0x90779626
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 241 columns
+Presolve removed 30 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 574 rows, 908 columns and 1500 nonzeros
+Model fingerprint: 0x45edbf5d
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 291 columns
+Presolve removed 5 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 575 rows, 908 columns and 1501 nonzeros
+Model fingerprint: 0x363a2f0d
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 403 rows and 697 columns
+Presolve time: 0.02s
+Presolved: 172 rows, 211 columns, 621 nonzeros
+Presolved model has 46 SOS constraint(s)
+Variable types: 115 continuous, 96 integer (94 binary)
+
+Root relaxation: objective 0.000000e+00, 107 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   10          -    0.00000      -     -    0s
+     0     0    0.00000    0   10          -    0.00000      -     -    0s
+     0     0    0.00000    0    5          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (142 simplex iterations) in 0.03 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 574 rows, 908 columns and 1500 nonzeros
+Model fingerprint: 0x8ac4e6ba
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 241 columns
+Presolve removed 29 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 575 rows, 908 columns and 1501 nonzeros
+Model fingerprint: 0xa52da315
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 383 rows and 662 columns
+Presolve time: 0.02s
+Presolved: 192 rows, 246 columns, 724 nonzeros
+Presolved model has 47 SOS constraint(s)
+Variable types: 136 continuous, 110 integer (108 binary)
+
+Root relaxation: objective 0.000000e+00, 114 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+
+Explored 1 nodes (114 simplex iterations) in 0.03 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 575 rows, 908 columns and 1501 nonzeros
+Model fingerprint: 0x53edb8a9
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 406 rows and 527 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0xbbcf3da1
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 241 columns
+Presolve removed 28 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 574 rows, 908 columns and 1500 nonzeros
+Model fingerprint: 0xf2dfe446
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 382 rows and 662 columns
+Presolve time: 0.02s
+Presolved: 192 rows, 246 columns, 724 nonzeros
+Presolved model has 47 SOS constraint(s)
+Variable types: 136 continuous, 110 integer (108 binary)
+
+Root relaxation: objective 0.000000e+00, 114 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+
+Explored 1 nodes (114 simplex iterations) in 0.03 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 574 rows, 908 columns and 1500 nonzeros
+Model fingerprint: 0x9558a1b3
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 405 rows and 527 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 908 columns and 1498 nonzeros
+Model fingerprint: 0x081302c0
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 272 rows and 507 columns
+Presolve time: 0.01s
+Presolved: 300 rows, 401 columns, 1044 nonzeros
+Presolved model has 110 SOS constraint(s)
+Variable types: 215 continuous, 186 integer (185 binary)
+
+Root relaxation: objective 0.000000e+00, 186 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   13          -    0.00000      -     -    0s
+     0     0    0.00000    0   13          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (186 simplex iterations) in 0.03 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 908 columns and 1498 nonzeros
+Model fingerprint: 0x53de0079
+Model has 712 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 469 rows and 771 columns
+Presolve time: 0.01s
+Presolved: 103 rows, 137 columns, 407 nonzeros
+Presolved model has 23 SOS constraint(s)
+Variable types: 76 continuous, 61 integer (61 binary)
+
+Root relaxation: objective 0.000000e+00, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    6          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0    6    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.6265e-02) exceeds tolerance
+Warning: max general constraint violation (6.6265e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 1058 columns and 1498 nonzeros
+Model fingerprint: 0x8c88b055
+Model has 1012 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 442 rows and 888 columns
+Presolve time: 0.02s
+Presolved: 130 rows, 170 columns, 474 nonzeros
+Presolved model has 39 SOS constraint(s)
+Variable types: 92 continuous, 78 integer (78 binary)
+
+Root relaxation: objective 0.000000e+00, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   15          -    0.00000      -     -    0s
+     0     0    0.00000    0   15          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (68 simplex iterations) in 0.03 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.6265e-02) exceeds tolerance
+Warning: max general constraint violation (6.6265e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 908 columns and 1498 nonzeros
+Model fingerprint: 0x3b90869f
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 465 rows and 758 columns
+Presolve time: 0.01s
+Presolved: 107 rows, 150 columns, 500 nonzeros
+Presolved model has 7 SOS constraint(s)
+Variable types: 83 continuous, 67 integer (67 binary)
+
+Root relaxation: objective 0.000000e+00, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (21 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (5.6769e-02) exceeds tolerance
+Warning: max general constraint violation (5.6769e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 1058 columns and 1498 nonzeros
+Model fingerprint: 0xd6c0efd2
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 149 columns
+Presolve removed 2 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0xc4d24808
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 502 rows and 753 columns
+Presolve time: 0.01s
+Presolved: 71 rows, 155 columns, 432 nonzeros
+Presolved model has 25 SOS constraint(s)
+Variable types: 135 continuous, 20 integer (18 binary)
+
+Root relaxation: objective 0.000000e+00, 40 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    9          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 3
+  Clique: 2
+
+Explored 1 nodes (40 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 908 columns and 1498 nonzeros
+Model fingerprint: 0x910f8965
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 515 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 1058 columns and 1498 nonzeros
+Model fingerprint: 0x965c22e9
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 91 columns
+Presolve removed 27 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0x86686ae1
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 507 rows and 756 columns
+Presolve time: 0.01s
+Presolved: 66 rows, 152 columns, 418 nonzeros
+Presolved model has 24 SOS constraint(s)
+Variable types: 134 continuous, 18 integer (16 binary)
+
+Root relaxation: objective 0.000000e+00, 30 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0    1    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (30 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 908 columns and 1498 nonzeros
+Model fingerprint: 0x791712f0
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 515 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 572 rows, 1058 columns and 1498 nonzeros
+Model fingerprint: 0x40d42b5f
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 91 columns
+Presolve removed 27 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 908 columns and 1497 nonzeros
+Model fingerprint: 0x3b9c9e36
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 514 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 1058 columns and 1497 nonzeros
+Model fingerprint: 0x25e2c6fb
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 100 columns
+Presolve removed 51 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0x6e1842ed
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 467 rows and 770 columns
+Presolve time: 0.01s
+Presolved: 106 rows, 138 columns, 441 nonzeros
+Presolved model has 14 SOS constraint(s)
+Variable types: 81 continuous, 57 integer (56 binary)
+
+Root relaxation: objective 0.000000e+00, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (32 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 908 columns and 1497 nonzeros
+Model fingerprint: 0xe7a5af5e
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 514 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 1058 columns and 1497 nonzeros
+Model fingerprint: 0x82a189d4
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 91 columns
+Presolve removed 26 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0x62e2c76e
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 507 rows and 756 columns
+Presolve time: 0.01s
+Presolved: 66 rows, 152 columns, 418 nonzeros
+Presolved model has 24 SOS constraint(s)
+Variable types: 134 continuous, 18 integer (16 binary)
+
+Root relaxation: objective 0.000000e+00, 30 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0    1    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (30 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 908 columns and 1497 nonzeros
+Model fingerprint: 0x301d49e3
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 514 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 1058 columns and 1497 nonzeros
+Model fingerprint: 0xeda2a1de
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve added 0 rows and 91 columns
+Presolve removed 26 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 573 rows, 908 columns and 1499 nonzeros
+Model fingerprint: 0xf7e07e3e
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 507 rows and 756 columns
+Presolve time: 0.01s
+Presolved: 66 rows, 152 columns, 418 nonzeros
+Presolved model has 24 SOS constraint(s)
+Variable types: 134 continuous, 18 integer (16 binary)
+
+Root relaxation: objective 0.000000e+00, 30 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0    1    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (30 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.8225e-02) exceeds tolerance
+Warning: max general constraint violation (6.8225e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 908 columns and 1497 nonzeros
+Model fingerprint: 0x2f7a2eeb
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 514 rows and 830 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 78 columns, 244 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 44 continuous, 34 integer (33 binary)
+
+Root relaxation: objective 0.000000e+00, 17 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (18 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.2483e-02) exceeds tolerance
+Warning: max general constraint violation (6.2483e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 1058 columns and 1497 nonzeros
+Model fingerprint: 0xa3c8c419
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 571 rows and 1058 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.9390e-02) exceeds tolerance
+Warning: max general constraint violation (6.9390e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Parameter FuncPieces unchanged
+   Value: -1  Min: -2  Max: 200000000  Default: 0
+Parameter FuncPieceLength unchanged
+   Value: 1e-05  Min: 1e-05  Max: 1000000.0  Default: 0.01
+Parameter FuncPieceError unchanged
+   Value: 1e-06  Min: 1e-06  Max: 1000000.0  Default: 0.001
+Parameter IntFeasTol unchanged
+   Value: 1e-09  Min: 1e-09  Max: 0.1  Default: 1e-05
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 908 columns and 1497 nonzeros
+Model fingerprint: 0x37d18c91
+Model has 412 general constraints
+Variable types: 553 continuous, 355 integer (355 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 514 rows and 827 columns
+Presolve time: 0.01s
+Presolved: 57 rows, 81 columns, 264 nonzeros
+Presolved model has 4 SOS constraint(s)
+Variable types: 45 continuous, 36 integer (36 binary)
+
+Root relaxation: objective 0.000000e+00, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (13 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (6.9390e-02) exceeds tolerance
+Warning: max general constraint violation (6.9390e-02) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 64 physical cores, 128 logical processors, using up to 32 threads
+Optimize a model with 571 rows, 1058 columns and 1497 nonzeros
+Model fingerprint: 0x0a080cdc
+Model has 712 general constraints
+Variable types: 553 continuous, 505 integer (505 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 3e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 3e+00]
+Presolve removed 389 rows and 819 columns
+Presolve time: 0.02s
+Presolved: 182 rows, 239 columns, 687 nonzeros
+Presolved model has 46 SOS constraint(s)
+Variable types: 132 continuous, 107 integer (106 binary)
+
+Root relaxation: objective 0.000000e+00, 123 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (123 simplex iterations) in 0.02 seconds
+Thread count was 32 (of 128 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Discarded solution information

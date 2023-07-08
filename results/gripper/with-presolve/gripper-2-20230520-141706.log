@@ -1,0 +1,38 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/gripper/problem02.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.4002522580000001
+INFO:root:Runtime: 0.484567784704268
+INFO:root:Plan length: 5
+INFO:root:Size of explanation: 5
+INFO:root:Size of input: 12
+INFO:root:Number of calls: 30
+INFO:root:Runtime for each network call: [0.016364097595214844, 0.004739999771118164, 0.0028018951416015625, 0.0037398338317871094, 0.004996061325073242, 0.0072498321533203125, 0.004587888717651367, 0.0028629302978515625, 0.003816843032836914, 0.0031599998474121094, 0.0028450489044189453, 0.008114099502563477, 0.004673957824707031, 0.0045888423919677734, 0.00506901741027832, 0.004558086395263672, 0.00509190559387207, 0.0045299530029296875, 0.002744913101196289, 0.004525899887084961, 0.0028488636016845703, 0.0038127899169921875, 0.0032279491424560547, 0.0028400421142578125, 0.004515171051025391, 0.0027658939361572266, 0.003690958023071289, 0.0031790733337402344, 0.002866983413696289, 0.0046749114990234375]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 68
+INFO:root:Number of Gurobi variables: 367 Constraints: 507
+INFO:root:Explanation: at-robby_roomb = 0
+free_right = 1
+at_ball1_roomb = 0
+at_ball2_rooma = 1
+free_left = 1
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/gripper/problem02.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.40105085000000074
+INFO:root:Runtime: 0.4856591848656535
+INFO:root:Plan length: 5
+INFO:root:Size of explanation: 5
+INFO:root:Size of input: 12
+INFO:root:Number of calls: 30
+INFO:root:Runtime for each network call: [0.018826007843017578, 0.004767179489135742, 0.004751920700073242, 0.0028028488159179688, 0.0037059783935546875, 0.0031599998474121094, 0.0029180049896240234, 0.004595041275024414, 0.0028870105743408203, 0.0038559436798095703, 0.003245115280151367, 0.002874135971069336, 0.0045239925384521484, 0.0027570724487304688, 0.004508018493652344, 0.002750873565673828, 0.0037429332733154297, 0.00327301025390625, 0.004716157913208008, 0.0027959346771240234, 0.005125999450683594, 0.005202054977416992, 0.0049669742584228516, 0.0049550533294677734, 0.0047299861907958984, 0.0046389102935791016, 0.0027840137481689453, 0.0036919116973876953, 0.005354166030883789, 0.007187843322753906]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 68
+INFO:root:Number of Gurobi variables: 367 Constraints: 507
+INFO:root:Explanation: free_right = 1
+at_ball1_rooma = 1
+at_ball2_roomb = 0
+free_left = 1
+at-robby_rooma = 1
+

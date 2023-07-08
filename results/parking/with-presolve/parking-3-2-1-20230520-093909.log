@@ -1,0 +1,47 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-3-2-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 7.057223633000001
+INFO:root:Runtime: 1.214884389191866
+INFO:root:Plan length: 2
+INFO:root:Size of explanation: 8
+INFO:root:Size of input: 15
+INFO:root:Number of calls: 23
+INFO:root:Runtime for each network call: [0.30777812004089355, 0.027806997299194336, 0.009308099746704102, 0.028028011322021484, 0.027938127517700195, 0.009395122528076172, 0.028092145919799805, 0.00938105583190918, 0.02752399444580078, 0.015792131423950195, 0.008298158645629883, 0.015598058700561523, 0.0082550048828125, 0.017559051513671875, 0.01289510726928711, 0.010193109512329102, 0.014302968978881836, 0.010054826736450195, 0.010023832321166992, 0.015803098678588867, 0.017924070358276367, 0.007285118103027344, 0.019796133041381836]
+INFO:root:Tiebreaks used: 2
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, 0.013016939163208008, False, False, False, False, False, 0.024063825607299805, False, False]
+INFO:root:Number of inner modules ASNets: 155
+INFO:root:Number of Gurobi variables: 908 Constraints: 963
+INFO:root:Explanation: at-curb_car_0 = 1
+at-curb_car_1 = 1
+at-curb-num_car_0_curb_0 = 0
+at-curb-num_car_1_curb_0 = 1
+at-curb-num_car_0_curb_1 = 1
+at-curb-num_car_1_curb_1 = 0
+behind-car_car_0_car_1 = 0
+car-clear_car_0 = 1
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-3-2-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 7.0440549679999975
+INFO:root:Runtime: 1.2302970010787249
+INFO:root:Plan length: 2
+INFO:root:Size of explanation: 11
+INFO:root:Size of input: 15
+INFO:root:Number of calls: 21
+INFO:root:Runtime for each network call: [0.2831909656524658, 0.029914140701293945, 0.009826898574829102, 0.03166389465332031, 0.03863406181335449, 0.029458999633789062, 0.009654998779296875, 0.028973102569580078, 0.0096588134765625, 0.03359389305114746, 0.02895808219909668, 0.009715080261230469, 0.0315089225769043, 0.013384103775024414, 0.014709949493408203, 0.015609979629516602, 0.018197059631347656, 0.014271974563598633, 0.014263153076171875, 0.013538122177124023, 0.014493942260742188]
+INFO:root:Tiebreaks used: 1
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False, 0.01454615592956543, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 155
+INFO:root:Number of Gurobi variables: 908 Constraints: 963
+INFO:root:Explanation: at-curb_car_0 = 1
+at-curb_car_1 = 1
+at-curb-num_car_0_curb_2 = 0
+curb-clear_curb_2 = 1
+at-curb-num_car_1_curb_2 = 0
+behind-car_car_1_car_0 = 0
+at-curb-num_car_0_curb_1 = 1
+curb-clear_curb_1 = 0
+curb-clear_curb_0 = 0
+car-clear_car_0 = 1
+car-clear_car_1 = 1
+

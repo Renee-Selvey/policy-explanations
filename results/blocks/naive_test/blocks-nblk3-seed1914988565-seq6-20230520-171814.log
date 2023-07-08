@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/blocks/prob-blocks-blocks-nblk3-seed1914988565-seq6.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 4.703345765
+INFO:root:Plan length: 6
+INFO:root:Size of explanation: 1
+INFO:root:Size of input: 19
+INFO:root:Explanation: [['is_true(on_b1_b2)', False], ['is_true(ontable_b2)', False], ['is_true(clear_b3)', False], ['is_true(holding_b1)', False], ['is_true(handempty)', False], ['is_true(clear_b1)', False], ['is_true(ontable_b1)', False], ['is_true(holding_b2)', False], ['is_true(holding_b3)', False], ['is_true(on_b3_b1)', False], ['is_true(on_b1_b1)', False], ['is_true(on_b3_b3)', False], ['is_true(on_b3_b2)', False], ['is_true(on_b2_b3)', False], ['is_true(on_b2_b2)', False], ['is_true(on_b2_b1)', False], ['is_true(ontable_b3)', False], ['is_true(on_b1_b3)', False], ['is_true(clear_b2)', True]]

@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/parking/parking-2-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 1.213166167999999
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 6
+INFO:root:Explanation: [['is_true(curb-clear_curb_0)', False], ['is_true(at-curb-num_car_0_curb_1)', False], ['is_true(curb-clear_curb_1)', False], ['is_true(car-clear_car_0)', False], ['is_true(at-curb_car_0)', True], ['is_true(at-curb-num_car_0_curb_0)', True]]

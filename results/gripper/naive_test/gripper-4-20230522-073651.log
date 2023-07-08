@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/gripper/problem04.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 26.757989486
+INFO:root:Plan length: 11
+INFO:root:Size of explanation: 5
+INFO:root:Size of input: 20
+INFO:root:Explanation: [['is_true(carry_ball3_left)', False], ['is_true(carry_ball1_left)', False], ['is_true(carry_ball2_left)', False], ['is_true(carry_ball4_left)', False], ['is_true(carry_ball3_right)', False], ['is_true(carry_ball1_right)', False], ['is_true(carry_ball4_right)', False], ['is_true(at_ball4_roomb)', False], ['is_true(at_ball2_rooma)', True], ['is_true(at_ball3_rooma)', True], ['is_true(at_ball1_rooma)', True], ['is_true(at_ball3_roomb)', False], ['is_true(at_ball2_roomb)', False], ['is_true(at_ball1_roomb)', False], ['is_true(free_right)', False], ['is_true(at_ball4_rooma)', True], ['is_true(carry_ball2_right)', False], ['is_true(free_left)', False], ['is_true(at-robby_roomb)', False], ['is_true(at-robby_rooma)', True]]

@@ -1,0 +1,34 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-4-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 7.509183083000002
+INFO:root:Runtime: 0.7639397354796529
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 4
+INFO:root:Size of input: 10
+INFO:root:Number of calls: 11
+INFO:root:Runtime for each network call: [0.26488590240478516, 0.0077588558197021484, 0.003952980041503906, 0.0040340423583984375, 0.0043849945068359375, 0.004531145095825195, 0.0043981075286865234, 0.010016202926635742, 0.009112119674682617, 0.008482933044433594, 0.004603862762451172]
+INFO:root:Tiebreaks used: 1
+INFO:root:Tiebreak runtime: [False, 0.007921934127807617, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 85
+INFO:root:Number of Gurobi variables: 492 Constraints: 524
+INFO:root:Explanation: at-curb-num_car_0_curb_3 = 0
+at-curb_car_0 = 1
+at-curb-num_car_0_curb_1 = 0
+at-curb-num_car_0_curb_2 = 0
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-4-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 7.387621371000002
+INFO:root:Runtime: 0.795088117942214
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 10
+INFO:root:Number of calls: 11
+INFO:root:Runtime for each network call: [0.22429203987121582, 0.0064542293548583984, 0.006070137023925781, 0.006042957305908203, 0.005993843078613281, 0.006218910217285156, 0.006030082702636719, 0.018545866012573242, 0.006287097930908203, 0.00511479377746582, 0.03725910186767578]
+INFO:root:Tiebreaks used: 1
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, 0.04349398612976074]
+INFO:root:Number of inner modules ASNets: 85
+INFO:root:Number of Gurobi variables: 492 Constraints: 524
+INFO:root:Explanation: at-curb-num_car_0_curb_0 = 1
+at-curb_car_0 = 1
+

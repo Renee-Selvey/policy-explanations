@@ -1,0 +1,13 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-4-3-2.pddl
+INFO:root:Goal reached/Finished in time: 0
+INFO:root:CPU Runtime: 2.276088121000001
+INFO:root:Runtime: 3.956684259697795
+INFO:root:Plan length: 150
+INFO:root:Size of input: 0
+INFO:root:Number of calls: 0
+INFO:root:Runtime for each network call: []
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: []
+INFO:root:Number of inner modules ASNets: 415
+INFO:root:Number of Gurobi variables: 2069 Constraints: 2708
+INFO:root:Explanation: 

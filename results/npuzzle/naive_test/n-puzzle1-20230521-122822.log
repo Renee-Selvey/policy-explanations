@@ -1,0 +1,7 @@
+INFO:root:Problem path: /home/asnets_user/shared/experiments/experiment_problems/npuzzle/all-2puzzle/npuzzle2x2-06.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:Runtime: 6.149006461
+INFO:root:Plan length: 6
+INFO:root:Size of explanation: 1
+INFO:root:Size of input: 24
+INFO:root:Explanation: [['is_true(at_t_3_p_2_1)', False], ['is_true(at_t_3_p_1_1)', False], ['is_true(at_t_3_p_1_2)', False], ['is_true(at_t_2_p_2_2)', False], ['is_true(empty_p_1_2)', False], ['is_true(neighbor_p_1_1_p_1_2)', False], ['is_true(neighbor_p_1_2_p_1_1)', False], ['is_true(neighbor_p_1_2_p_2_2)', False], ['is_true(neighbor_p_2_2_p_1_2)', False], ['is_true(at_t_1_p_1_1)', False], ['is_true(empty_p_1_1)', False], ['is_true(at_t_1_p_2_1)', False], ['is_true(empty_p_2_2)', False], ['is_true(at_t_1_p_1_2)', False], ['is_true(at_t_1_p_2_2)', False], ['is_true(neighbor_p_2_2_p_2_1)', False], ['is_true(neighbor_p_2_1_p_2_2)', False], ['is_true(neighbor_p_2_1_p_1_1)', False], ['is_true(neighbor_p_1_1_p_2_1)', False], ['is_true(empty_p_2_1)', False], ['is_true(at_t_3_p_2_2)', False], ['is_true(at_t_2_p_2_1)', False], ['is_true(at_t_2_p_1_1)', True], ['is_true(at_t_2_p_1_2)', False]]

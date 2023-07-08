@@ -1,0 +1,35 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-2-2.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.4543315830000001
+INFO:root:Runtime: 0.7905810950323939
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 3
+INFO:root:Size of input: 12
+INFO:root:Number of calls: 13
+INFO:root:Runtime for each network call: [0.03545999526977539, 0.002696990966796875, 0.003844022750854492, 0.002683877944946289, 0.002735137939453125, 0.002733945846557617, 0.002750873565673828, 0.0027399063110351562, 0.002771139144897461, 0.017873048782348633, 0.013528823852539062, 0.027179956436157227, 0.002819061279296875]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 106
+INFO:root:Number of Gurobi variables: 609 Constraints: 831
+INFO:root:Explanation: at-curb_car_1 = 0
+behind-car_car_1_car_0 = 1
+at-curb-num_car_0_curb_0 = 1
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-2-2.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.40038346799999935
+INFO:root:Runtime: 0.47413092851638794
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 4
+INFO:root:Size of input: 12
+INFO:root:Number of calls: 13
+INFO:root:Runtime for each network call: [0.035353899002075195, 0.002662181854248047, 0.002691030502319336, 0.006591081619262695, 0.002732992172241211, 0.002705097198486328, 0.006847858428955078, 0.00510406494140625, 0.002257823944091797, 0.002267122268676758, 0.00228118896484375, 0.002257108688354492, 0.017789840698242188]
+INFO:root:Tiebreaks used: 1
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, 0.007625102996826172, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 106
+INFO:root:Number of Gurobi variables: 609 Constraints: 639
+INFO:root:Explanation: at-curb_car_1 = 0
+at-curb-num_car_1_curb_0 = 0
+curb-clear_curb_0 = 0
+car-clear_car_0 = 0
+

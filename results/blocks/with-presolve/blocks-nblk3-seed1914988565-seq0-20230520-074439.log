@@ -1,0 +1,13 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/blocks/prob-blocks-blocks-nblk3-seed1914988565-seq0.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.8822843799999998
+INFO:root:Runtime: 3.132438980974257
+INFO:root:Plan length: 0
+INFO:root:Size of input: 0
+INFO:root:Number of calls: 0
+INFO:root:Runtime for each network call: []
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: []
+INFO:root:Number of inner modules ASNets: 100
+INFO:root:Number of Gurobi variables: 443 Constraints: 530
+INFO:root:Explanation: 

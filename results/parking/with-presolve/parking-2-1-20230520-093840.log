@@ -1,0 +1,32 @@
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-2-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.2660877500000005
+INFO:root:Runtime: 0.35333454236388206
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 6
+INFO:root:Number of calls: 7
+INFO:root:Runtime for each network call: [0.007824182510375977, 0.0017328262329101562, 0.002662181854248047, 0.0017578601837158203, 0.0017690658569335938, 0.0036640167236328125, 0.0017790794372558594]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 35
+INFO:root:Number of Gurobi variables: 190 Constraints: 254
+INFO:root:Explanation: at-curb_car_0 = 1
+at-curb-num_car_0_curb_1 = 0
+
+INFO:root:Problem path: /home/asnets_user/shared/policy-explanations/experiments/experiment_problems/parking/parking-2-1.pddl
+INFO:root:Goal reached/Finished in time: 1
+INFO:root:CPU Runtime: 0.26714555999999945
+INFO:root:Runtime: 0.3540865629911423
+INFO:root:Plan length: 1
+INFO:root:Size of explanation: 2
+INFO:root:Size of input: 6
+INFO:root:Number of calls: 7
+INFO:root:Runtime for each network call: [0.007775068283081055, 0.0016880035400390625, 0.0016760826110839844, 0.00177001953125, 0.0017459392547607422, 0.002624034881591797, 0.005955934524536133]
+INFO:root:Tiebreaks used: 0
+INFO:root:Tiebreak runtime: [False, False, False, False, False, False, False]
+INFO:root:Number of inner modules ASNets: 35
+INFO:root:Number of Gurobi variables: 190 Constraints: 254
+INFO:root:Explanation: at-curb_car_0 = 1
+at-curb-num_car_0_curb_0 = 1
+

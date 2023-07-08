@@ -1,0 +1,5 @@
+
+Gurobi 9.1.2 (linux64) logging started Sun May 21 08:57:06 2023
+
+Changed value of parameter LogFile to ./logs/blocks-nblk5-seed256232149-seq1-20230521-085706.log
+   Prev:   Default: 
