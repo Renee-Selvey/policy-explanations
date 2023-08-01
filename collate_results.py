@@ -1,11 +1,9 @@
-import math
 import os
 import json
 from statistics import mean
 import matplotlib.pyplot as plt
 
 params = {'legend.fontsize': 'x-large',
-          #'figure.figsize': (15, 5),
          'axes.labelsize': 'x-large',
          'axes.titlesize':'x-large',
          'xtick.labelsize':'x-large',
@@ -219,9 +217,7 @@ for domain in domains.keys():
     m += 1
     
 plt.legend()
-#plt.xlabel("Number of modules in the neural network")
 plt.xlabel("Nb modules in neural network")
-#plt.ylabel("Runtime (seconds)")
 plt.ylabel("Runtime (sec)")
 plt.yscale('log')
 plt.savefig("graphs/runtime_over_size.pdf", format='pdf')
@@ -242,9 +238,7 @@ for domain in domains.keys():
     m += 1
     
 plt.legend()
-#plt.xlabel("Runtime (seconds) [Least -> Most sensitive]")
 plt.xlabel("Runtime [Least -> Most sensitive]")
-#plt.ylabel("Runtime (seconds) [Most -> Least sensitive]")
 plt.ylabel("Runtime [Most -> Least sensitive]")
 plt.xscale("log")
 plt.yscale("log")
@@ -266,9 +260,7 @@ for domain in domains.keys():
     m += 1
     
 plt.legend()
-#plt.xlabel("Percentage of input [Least -> Most sensitive]")
 plt.xlabel("Expl. size [Least -> Most sensitive]")
-#plt.ylabel("Percentage of input [Most -> Least sensitive]")
 plt.ylabel("Expl. size [Most -> Least sensitive]")
 plt.savefig("graphs/ordering_exp_size.pdf", format='pdf')
 
@@ -281,9 +273,7 @@ for domain in domains.keys():
     m += 1
     
 plt.legend()
-#plt.xlabel("Number of propositions in the input")
 plt.xlabel("Nb propositions in input")
-#plt.ylabel("Percentage of the input in the explanation")
 plt.ylabel("Fraction of input in explanation")
 plt.savefig("graphs/exp_size.pdf", format='pdf')
 
@@ -304,23 +294,16 @@ for domain in domains.keys():
     plt.fill_between(size[domain], gurobi_min, gurobi_max, alpha=0.2)
     
 plt.legend()
-#plt.xlabel("Number of modules in the neural network")
 plt.xlabel("Nb modules in neural network")
-#plt.ylabel("Average runtime of MIP solver (seconds)")
 plt.ylabel("Av. runtime of MIP solver (sec)")
 plt.yscale('log')
 plt.savefig("graphs/milp_runtime.pdf", format='pdf')
 
 # Box plot of the avg number of calls / plan length in each domain
 plt.figure()
-# for domain in domains:
-#     print(domain)
-#     print(calls_over_length[domain])
 plt.boxplot([calls_over_length[domain] for domain in domains], labels=domains.keys())
 
 plt.legend()
 plt.xlabel("Domains")
-#plt.ylabel("Average MIP calls per proposition per plan step")
 plt.ylabel("Av. MIP calls per proposition & plan step")
 plt.savefig("graphs/avg_milp_calls.pdf", format='pdf')
-# plt.show()
